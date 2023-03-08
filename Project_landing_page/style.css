@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: sans-serif;
+    color: #f9faf8;
+}
+
+.section1 {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 0 15rem 8rem 15rem;
+}
+
+.section1 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    margin-bottom: 6rem;
+}
+
+.header h2 {
+    font-size: 24px;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+}
+
+.link {
+    padding-left: 1rem;
+}
+
+.section1 .div2 {
+    display: flex;
+}
+
+.text {
+    flex-grow: 1;
+    flex-basis: 50%;
+    margin-right: 5px;
+}
+
+.text h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    margin-bottom: 1rem;
+}
+
+.text button {
+    background-color: #3882F6;
+    color:#f9faf8;;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    border-style: none;
+}
+
+.placeholder {
+    display: flex;
+    background-color: #5c616c;
+    flex-grow: 1;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+    padding: 3rem;
+}
+
+.random-info {
+    padding-bottom: 2rem;
+}
+
+.random-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.image p {
+    text-align: center;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.section3 {
+    background-color: #e5e7eb;
+    padding-right: 21rem;
+    padding-left: 21rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #5c616c;
+}
+
+
+.quote {
+    margin: auto;
+    font-style: italic;
+}
+
+.section3 > p {
+    text-align: end;
+    font-weight: bold;
+}
+
+.section4 {
+    padding: 2rem 15rem;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.c1 {
+    padding: 2rem 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 0rem 1.5rem;
+}
+
+.call-to-action .text h3 {
+    font-weight: bold;
+}
+
+.call-to-action .text p {
+    font-size: 12px;
+}
